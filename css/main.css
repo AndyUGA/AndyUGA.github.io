@@ -89,8 +89,7 @@ body {
  * ------------------------------------------------------------------- */
 a {
   color: #FF0000;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+
 }
 
 a:hover,
@@ -631,8 +630,7 @@ select {
   line-height: 3rem;
   max-width: 100%;
   background: rgba(0, 0, 0, 0.12);
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+ 
 }
 
 .cl-custom-select {
