@@ -762,7 +762,7 @@ select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
   -webkit-text-fill-color: #FF0000;
-  transition: background-color 5000s ease-in-out 0s;
+  
 }
 
 
@@ -790,8 +790,7 @@ input[type="button"] {
   text-align: center;
   white-space: nowrap;
   cursor: pointer;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+ 
   background-color: #c5c5c5;
   border: 0.2rem solid #c5c5c5;
 }
@@ -1333,8 +1332,7 @@ input::-moz-focus-inner {
   padding: 0;
   outline: 0;
   border: none;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  
 }
 .header-logo img {
   width: 200px;
@@ -1360,8 +1358,7 @@ input::-moz-focus-inner {
   position: fixed;
   right: 0;
   top: 0;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+
   -webkit-transform: translateZ(0);
   -webkit-backface-visibility: hidden;
   -webkit-transform: translateX(100%);
@@ -1428,8 +1425,7 @@ input::-moz-focus-inner {
   font-family: "metropolis-regular", sans-serif;
   font-size: 11px;
   color: rgba(255, 255, 255, 0.25);
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
+ 
   position: absolute;
   left: 3px;
   top: 0;
@@ -1509,14 +1505,7 @@ input::-moz-focus-inner {
 .menu-is-open .header-nav .header-nav__content {
   opacity: 1;
   visibility: visible;
-  -webkit-transition-property: all;
-  transition-property: all;
-  -webkit-transition-duration: 0.5s;
-  transition-duration: 0.5s;
-  -webkit-transition-timing-function: ease-in-out;
-  transition-timing-function: ease-in-out;
-  -webkit-transition-delay: 0.3s;
-  transition-delay: 0.3s;
+  
   left: 0;
 }
 
@@ -1536,8 +1525,7 @@ input::-moz-focus-inner {
   text-transform: uppercase;
   letter-spacing: 0.4rem;
   color: #ffffff;
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
+  
 }
 .header-menu-toggle::before {
   display: inline-block;
@@ -1765,8 +1753,7 @@ input::-moz-focus-inner {
   text-align: left;
   background-color: rgba(0, 0, 0, 0.2);
   border-top: 1px solid rgba(255, 255, 255, 0.05);
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
+ 
   position: relative;
 }
 .home-sidelinks li:last-child {
@@ -1821,8 +1808,7 @@ input::-moz-focus-inner {
   letter-spacing: 0.3rem;
   color: #ffffff;
   border-bottom: 1px solid transparent;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  
   position: relative;
   right: 7.5rem;
 }
@@ -1836,8 +1822,7 @@ input::-moz-focus-inner {
   background-repeat: no-repeat;
   background-size: 10px 15px;
   border-radius: 50%;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+
   position: absolute;
   top: 0;
   right: 0;
@@ -1867,8 +1852,7 @@ input::-moz-focus-inner {
 .home-social a {
   color: #ffffff;
   border-bottom: 1px solid transparent;
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
+ 
 }
 .home-social a:hover {
   border-bottom: 1px solid #ffffff;
@@ -1916,9 +1900,7 @@ html.cl-loaded .home-content__main {
   animation-name: fadeIn;
 }
 
-html.no-csstransitions .home-content__main {
-  opacity: 1;
-}
+
 
 
 /* ------------------------------------------------------------------- 
@@ -2491,8 +2473,7 @@ rotateIMG {
 
 .item-folio__thumb img {
   vertical-align: top;
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
+  
 }
 .item-folio__thumb a {
   display: block;
@@ -2509,8 +2490,7 @@ rotateIMG {
   left: 0;
   width: 100%;
   height: 100%;
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
+
 }
 .item-folio__thumb a::after {
   z-index: 1;
@@ -2530,8 +2510,7 @@ rotateIMG {
   text-align: center;
   opacity: 0;
   visibility: hidden;
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
+
   -webkit-transform: scale(0.5);
   -ms-transform: scale(0.5);
   transform: scale(0.5);
@@ -2548,8 +2527,7 @@ rotateIMG {
   transform: translate3d(0, -100%, 0);
   opacity: 0;
   visibility: hidden;
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
+
 }
 
 .item-folio__title {
@@ -3165,8 +3143,7 @@ rotateIMG {
   text-align: center;
   text-transform: uppercase;
   border-radius: 50%;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  
 }
 .cl-go-top a i {
   font-size: 21px;
@@ -3196,8 +3173,7 @@ rotateIMG {
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   color: rgba(255, 255, 255, 0.15);
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
+ 
   -webkit-transform: rotate(-90deg);
   -ms-transform: rotate(-90deg);
   transform: rotate(-90deg);
