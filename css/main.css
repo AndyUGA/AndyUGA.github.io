@@ -58,6 +58,11 @@ body {
   position: relative;
 }
 
+.itemLogo {
+    height: 396px;
+    width: 396px;
+}
+
 ol, ul {
   margin: 0;
   padding: 0;
