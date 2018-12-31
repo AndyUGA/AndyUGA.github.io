@@ -1934,9 +1934,14 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+
+.navbar-brand {
+    color: white;
+}
 @media (max-width: 1024px) {
   .navbar-brand img {
     margin-left: 5px;
+      
   }
 }
 
