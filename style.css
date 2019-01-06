@@ -659,17 +659,28 @@ li {
     text-align: center;
 }
 
-.gallery-hover-overlay .port-more-view > h3 {
+.gallery-hover-overlay .port-more-view > p {
     font-size: 26px;
     color: red;
     width: 40px;
     height: 40px;
     display: block;
+    text-align: center;
 }
 
 .test {
     color: red;
+    font-weight: bold;
 }
+
+.test2 {
+    color: red;
+}
+.test2:hover{
+
+    color: black;
+}
+
 
 .gallery-hover-overlay .port-hover-text > a {
     font-size: 12px;
@@ -678,17 +689,21 @@ li {
     margin-bottom: 15px;
     display: block;
     letter-spacing: 2px;
+    
 }
 
 .gallery-hover-overlay .port-hover-text > h3 {
-    color: #ff6c00;
+    color: red;
     margin-bottom: 0;
 }
 
 .fplus-portfolio .single_gallery_item:hover .gallery-hover-overlay {
     opacity: 1;
+    
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
+
+
 
 .fplus-portfolio .single_gallery_item:hover img {
     -webkit-transform: scale(1.1);
