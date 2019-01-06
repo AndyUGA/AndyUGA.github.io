@@ -281,7 +281,7 @@ li {
     -webkit-animation: 2000ms linear 0s normal none infinite running fplus-load;
     animation: 2000ms linear 0s normal none infinite running fplus-load;
     background: transparent none repeat scroll 0 0;
-    border-color: #dddddd #dddddd #ff6c00;
+    border-color: #dddddd #dddddd red;
     border-radius: 50%;
     border-style: solid;
     border-width: 4px;
