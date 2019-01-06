@@ -45,6 +45,11 @@
     padding: 0;
 }
 
+.icon {
+    width: 20%;
+    height: auto;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     position: relative;
