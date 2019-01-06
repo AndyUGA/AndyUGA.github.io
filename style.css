@@ -632,6 +632,7 @@ li {
     position: relative;
     z-index: 1;
     overflow: hidden;
+    
 }
 
 .fplus-portfolio .single_gallery_item img {
@@ -655,19 +656,24 @@ li {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
+    text-align: center;
 }
 
-.gallery-hover-overlay .port-more-view > a {
+.gallery-hover-overlay .port-more-view > h3 {
     font-size: 26px;
-    color: #ff6c00;
+    color: red;
     width: 40px;
     height: 40px;
     display: block;
 }
 
+.test {
+    color: red;
+}
+
 .gallery-hover-overlay .port-hover-text > a {
     font-size: 12px;
-    color: #959595;
+    color: red;
     text-transform: uppercase;
     margin-bottom: 15px;
     display: block;
