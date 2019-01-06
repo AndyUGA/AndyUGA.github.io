@@ -8,6 +8,7 @@
     }
     .fplus-about-us-area .about-us-text {
         padding: 30px;
+        text-align: center;
     }
     .single-clients-logo {
         height: 150px;
@@ -45,7 +46,8 @@
         width: 330px;
     }
     .fplus-about-us-area .about-us-text {
-        padding: 30px;
+        
+        text-align: center;
     }
     .gallery-hover-overlay {
         padding: 20px;
@@ -145,6 +147,7 @@
     }
     .fplus-about-us-area .about-us-text {
         padding: 30px;
+         text-align: center;
     }
     .fplus-projects-menu button.btn {
         padding: 0 5px;

@@ -551,6 +551,7 @@ li {
     background-color: #fff;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
     border-radius: 2px;
+    
 }
 
 .fplus-about-us-area .about-us-thumb > img {
@@ -559,6 +560,7 @@ li {
 
 .fplus-about-us-area .about-us-text {
     padding: 15px 60px;
+    text-align: center;
 }
 
 .fplus-about-us-area .about-us-text p {
