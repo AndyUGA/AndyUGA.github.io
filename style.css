@@ -315,7 +315,7 @@ li {
 /* Header & Menu Area CSS */
 
 .header_area {
-    position: fixed;
+    position:absolute;
     width: 100%;
     z-index: 9999;
     height: 100px;
