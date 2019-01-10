@@ -660,7 +660,7 @@ li {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: rgba(255, 255, 255, 1);
     padding: 50px;
     opacity: 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
