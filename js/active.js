@@ -67,13 +67,7 @@
         $(this).addClass('active');
     })
 
-    // :: 4.0 ScrollUp Active JS
-    if ($.fn.scrollUp) {
-        $.scrollUp({
-            scrollSpeed: 1500,
-            scrollText: '<i class="fa fa-arrow-up" aria-hidden="true"></i>'
-        });
-    }
+    
 
     // :: 5.0 CounterUp Active JS
     if ($.fn.counterUp) {
