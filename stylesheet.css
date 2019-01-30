@@ -1,0 +1,512 @@
+
+* {
+    font-family: 'Helvetica-Light', sans-serif;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    position: relative;
+
+
+}
+
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+}
+
+img {
+    width: 50%;
+    height: auto;
+}
+
+.tempText {
+    color: white;
+}
+
+.contact {
+    text-align: center;
+    color: white;
+}
+
+.footerIMG {
+    height: 40px;
+    width: 40px;
+}
+
+.footerIMG2 {
+    height: 60px;
+    width: 50px;
+}
+
+.link {
+    color: red;
+}
+
+
+.portfolioCards {
+    
+}
+
+
+.text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: "Helvetica", Times, serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.temp {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.jumbotron {
+    background: none !important;
+
+}
+
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.container{  padding-top: 20px;
+    padding-bottom: 20px;}
+
+.line {
+    color: red;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+
+
+
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 400px;
+    font-size: 19px;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 0 20px 50px rgb(250, 100, 100);
+    border: 2px solid black;
+    color: white;
+    padding: 20px;
+}
+
+.box h2 {
+    font-weight: bold;
+    font-size: 36px;
+}
+.box:before{
+    content: '';
+    position:absolute;
+    top:0;
+    left:-100%;
+    width:100%;
+    height:100%;
+    background: rgba(255,255,255,0.1);
+    transition:0.5s;
+    pointer-events: none;
+}
+
+.box:hover:before{
+    left:-50%;
+    transform: skewX(-5deg);
+}
+
+
+.box .content{
+    position:absolute;
+    top:15px;
+    left:15px;
+    right:15px;
+    bottom:15px;
+    border:1px solid red;
+    padding:20px;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(9,0,0,0.5);
+    font-size: 21px;
+}
+
+.box span{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    box-sizing: border-box;
+
+}
+
+.box span:nth-child(1)
+{
+    transform:rotate(0deg);
+}
+
+.box span:nth-child(2)
+{
+    transform:rotate(90deg);
+}
+
+.box span:nth-child(3)
+{
+    transform:rotate(180deg);
+}
+
+.box span:nth-child(4)
+{
+    transform:rotate(270deg);
+}
+
+.box span:before
+{
+    content: '';
+    position: absolute;
+    width:100%;
+    height: 2px;
+    background: red;
+    animation: animate 4s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform:scaleX(0);
+        transform-origin: left;
+    }
+    50%
+    {
+        transform:scaleX(1);
+        transform-origin: left;
+    }
+    50.1%
+    {
+        transform:scaleX(1);
+        transform-origin: right;
+
+    }
+
+    100%
+    {
+        transform:scaleX(0);
+        transform-origin: right;
+
+    }
+
+
+} 
+
+
+
+.menuButton {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    font-size: 18px;
+    border: 0px;
+}
+
+.menuButton:hover {
+    border-color: red;
+}
+
+
+.testbg {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-image: 
+        /* top, transparent red */
+        linear-gradient(
+            rgba(4, 9, 30, 0.5), 
+            rgba(4, 9, 30, 0.5)
+        ),
+        /* your image */
+        url(img/background/tech.jpg);
+}
+
+.testbg2 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-image: 
+        /* top, transparent red */
+        linear-gradient(
+            rgba(4, 9, 30, .5), 
+            rgba(4, 9, 30, 0.5)
+        ),
+        /* your image */
+        url(img/background/tech2.jpg);
+}
+
+.testbg3 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-image: 
+        /* top, transparent red */
+        linear-gradient(
+            rgba(4, 9, 30, .5), 
+            rgba(4, 9, 30, 0.5)
+        ),
+        /* your image */
+        url(img/background/tech3.jpg);
+}
+
+
+
+.projectHeading {
+    text-align: center;
+}
+
+
+
+.projectIcon {
+    width: 100%;
+    height: auto;
+
+}
+
+
+
+
+.hvr-outline-out {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+}
+.hvr-outline-out:before {
+    content: '';
+    position: absolute;
+    border: #e1e1e1 solid 4px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: top, right, bottom, left;
+    transition-property: top, right, bottom, left;
+}
+.hvr-outline-out:hover:before, .hvr-outline-out:focus:before, .hvr-outline-out:active:before {
+    top: -8px;
+    right: -8px;
+    bottom: -8px;
+    left: -8px;
+    border-color: red;
+}
+
+.typewriter h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid white; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+        typing 3s steps(40, end),
+        blink-caret .75s step-end 6;
+    border-right: .15em solid transparent;
+}
+
+
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    60% { border-color: red; }
+}
+
+
+
+
+
+@media screen and (max-width: 830px) {
+    .typewriter h1 {
+        overflow: hidden; /* Ensures the content is not revealed until the animation */
+        border-right: .15em solid red; /* The typwriter cursor */
+        white-space: pre-line; /* Keeps the content on a single line */
+        margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+        letter-spacing: .15em; /* Adjust as needed */
+        animation: 
+            typing 2.5s steps(40, end),
+            blink-caret .75s step-end 5;
+        border-right: .15em solid transparent;
+        
+
+    }
+    
+  
+    
+    
+    .testbg3 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-y;
+    width: 100%;
+    height: 200vh;
+    background-image: 
+        /* top, transparent red */
+        linear-gradient(
+            rgba(4, 9, 30, .5), 
+            rgba(4, 9, 30, 0.5)
+        ),
+        /* your image */
+        url(img/background/tech3.jpg);
+}
+   
+
+
+
+    /* The typing effect */
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+    }
+
+    /* The typewriter cursor effect */
+    @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: red; 
+        }
+    }
+
+    .box{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 370px;
+        height: 370px;
+        font-size: 19px;
+        box-sizing: border-box;
+        overflow: hidden;
+        box-shadow: 0 20px 50px rgb(250, 100, 100);
+        border: 2px solid black;
+        color: white;
+        padding: 20px;
+    }
+
+   
+    
+    
+
+    
+}
+
+.elementToFadeInAndOut {
+    -webkit-animation: fadeinout 5s linear forwards;
+    animation: fadeinout 5s linear forwards;
+}
+
+@-webkit-keyframes fadeinout {
+    50%,100% { opacity: 0; }
+    50% { opacity: 1; }
+}
+
+@keyframes fadeinout {
+    0%,100% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.hvr-underline-from-center {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+}
+.hvr-underline-from-center:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 51%;
+    right: 51%;
+    bottom: 0;
+    background: red;
+    height: 4px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+    left: 0;
+    right: 0;
+}
+
+.hvr-outline-in {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+}
+.hvr-outline-in:before {
+  pointer-events: none;
+  content: '';
+  position: absolute;
+  border: #e1e1e1 solid 4px;
+  top: -16px;
+  right: -16px;
+  bottom: -16px;
+  left: -16px;
+  opacity: 0;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: top, right, bottom, left;
+  transition-property: top, right, bottom, left;
+}
+.hvr-outline-in:hover:before, .hvr-outline-in:focus:before, .hvr-outline-in:active:before {
+  top: -8px;
+  right: -8px;
+  bottom: -8px;
+  left: -8px;
+  opacity: 1;
+    border-color: red;
+}
+
