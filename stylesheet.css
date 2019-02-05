@@ -51,6 +51,15 @@ img {
     color: red;
 }
 
+.link:hover {
+    color: white;
+    font-weight: bold;
+}
+
+.link2 {
+    padding-top: 15px;
+}
+
 
 .portfolioCards {
     
