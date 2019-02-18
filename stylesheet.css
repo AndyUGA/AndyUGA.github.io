@@ -11,6 +11,16 @@ body, html {
 
 }
 
+.icon {
+    height: 50px;
+    width: 50px;
+}
+
+.icon2 {
+    height: 90px;
+    width: 90px;
+}
+
 
 .navbar {
     margin-bottom: 0;
