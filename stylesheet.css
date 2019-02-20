@@ -11,6 +11,10 @@ body, html {
 
 }
 
+.appName {
+    font-size: 20px;
+}
+
 .icon {
     height: 50px;
     width: 50px;
@@ -402,7 +406,7 @@ img {
     background-position: center;
     background-repeat: repeat-y;
     width: 100%;
-    height: 210vh;
+    height: 240vh;
     background-image: 
         /* top, transparent red */
         linear-gradient(
