@@ -11,6 +11,11 @@ body, html {
 
 }
 
+
+.line {
+    color: white;
+}
+
 .appName {
     font-size: 20px;
 }
@@ -112,9 +117,7 @@ img {
 .container{  padding-top: 20px;
     padding-bottom: 20px;}
 
-.line {
-    color: red;
-}
+
 
 .name {
     font-weight: bold;
