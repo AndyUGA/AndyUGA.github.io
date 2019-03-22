@@ -11,4 +11,4 @@
 
 ---------------------------------------------------------------------------------------------------------------------------
 ## Live Preview
-[My Portfolio](http://andy-truong.me)
+[My Portfolio](https://www.andytruong.dev)
