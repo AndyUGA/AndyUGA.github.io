@@ -1,5 +1,5 @@
 ![Image](https://pngimage.net/wp-content/uploads/2018/06/logo-uga-png-3.png)
-# My Portfolio Website  
+# A simple website that showcases more about me and my personal projects 
 
 
 ------------------------------------------------------------------------------------------------------------------------------  
