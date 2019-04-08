@@ -329,7 +329,7 @@ img {
         linear-gradient(
             rgba(4, 9, 30, .5), 
             rgba(4, 9, 30, 0.5)
-        ),
+        ), o
         /* your image */
         url(img/background/tech.jpg);
 }
