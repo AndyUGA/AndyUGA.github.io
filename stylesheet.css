@@ -7,11 +7,19 @@ body, html {
     height: 100%;
     margin: 0;
     position: relative;
-
-
 }
 
+.reddit {
+    color: orange;
+}
 
+.upcr {
+    color: #199045;
+}
+
+.uvsase {
+    color: #009FB7;
+}
 .logo {
     width: 20%;
     height: 10vh;
@@ -316,6 +324,11 @@ img {
         ),
         /* your image */
         url(img/background/tech.jpg);
+}
+
+.testbg4 {
+
+    
 }
 
 
