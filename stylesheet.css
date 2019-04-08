@@ -394,7 +394,7 @@ img {
         letter-spacing: .15em; /* Adjust as needed */
         animation: 
             typing 2.5s steps(40, end),
-            blink-caret .75s step-end 5;
+            blink-caret .75s step-end 4;
         border-right: .15em solid transparent;
         
 
