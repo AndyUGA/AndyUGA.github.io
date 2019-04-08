@@ -10,7 +10,7 @@ body, html {
 }
 
 .reddit {
-    color: orange;
+    color: #FF5700;
 }
 
 .upcr {
@@ -19,6 +19,14 @@ body, html {
 
 .uvsase {
     color: #009FB7;
+}
+
+.node {
+    color: #75AD64;
+}
+
+.reactNative {
+    color: #00D8FF;
 }
 .logo {
     width: 20%;
