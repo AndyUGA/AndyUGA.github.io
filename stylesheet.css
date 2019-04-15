@@ -58,6 +58,15 @@ body, html {
     width: 90px;
 }
 
+.icon3 {
+    height: 40px;
+    width: 40px;
+}
+
+.icon4 {
+    height: 20px;
+    width: 20px;
+}
 
 .navbar {
     margin-bottom: 0;
