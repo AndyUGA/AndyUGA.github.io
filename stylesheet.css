@@ -9,6 +9,13 @@ body, html {
     position: relative;
 }
 
+.testButton {
+    background-color: #199045;
+    color: white;
+    padding: .5em 1.5em;
+    border-radius: 50px;
+}
+
 .reddit {
     color: #FF5700;
 }
