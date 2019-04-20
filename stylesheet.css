@@ -309,7 +309,7 @@ img {
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .15em; /* Adjust as needed */
     animation: 
-        typing 3s steps(40, end),
+        typing 2s steps(40, end),
         blink-caret .75s step-end 6;
     border-right: .15em solid transparent;
 }
@@ -340,7 +340,7 @@ img {
         margin: 0 auto; /* Gives that scrolling effect as the typing happens */
         letter-spacing: .15em; /* Adjust as needed */
         animation: 
-            typing 2.5s steps(40, end),
+            typing 2s steps(40, end),
             blink-caret .75s step-end 4;
         border-right: .15em solid transparent;
         
