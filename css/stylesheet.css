@@ -1,6 +1,6 @@
 
 * {
-    font-family: 'Helvetica-Light', sans-serif;
+    font-family: 'Helvetica-Light', 'Helvetica', sans-serif;
 }
 
 body, html {
@@ -36,9 +36,53 @@ body, html {
     color: #00D8FF;
 }
 
+.angular {
+    color: #DD1915;
+}
+
 .ionic {
     color: #4F8FF7;
 }
+
+.nodeJS {
+    color: #83CD2A;
+}
+
+.mongoDB {
+    color: #56AE46;
+}
+
+.bootstrap {
+    color: #5B4282;
+}
+
+.html5 {
+    color: #E44D25;
+}
+
+.css3 {
+    color: #34A9DC;
+}
+
+.git {
+    color: #E44D25;
+}
+
+.github {
+    color: #171515;
+}
+
+.bitbucket {
+    color: #205081;
+}
+
+.trello {
+    color: #21719F;
+}
+
+
+
+
 
 .logo {
     width: 40%;
@@ -49,12 +93,22 @@ body, html {
 }
 
 .languageIcon {
-    height: 10%;
-    width: 20%;
+    height: 70%;
+    width: 100%;
 
 }
 
+.programmingIcon {
+    height: 50%;
+    width: 40%;
+}
 
+
+
+
+.techIconFont {
+    font-size: 25px;
+}
 
 .logo2 {
     width: 40%;
@@ -143,7 +197,7 @@ img {
 
 
 .portfolioCards {
-    
+
 }
 
 
@@ -233,6 +287,7 @@ img {
 }
 
 
+
 .testbg {
     background-size: cover;
     background-position: center;
@@ -283,7 +338,7 @@ img {
 
 .testbg4 {
 
-    
+
 }
 
 
@@ -343,35 +398,39 @@ img {
             typing 2s steps(40, end),
             blink-caret .75s step-end 4;
         border-right: .15em solid transparent;
-        
+
 
     }
-    
-    .languageIcon {
-    height: 10%;
-    width: 30%;
 
-}
-    
-  
-    
-    
+    .languageIcon {
+        height: 70%;
+        width: 100%;
+
+    }
+
+    .techIconFont {
+        font-size: 16px;
+    }
+
+
+
+
     .testbg3 {
-    background-size: cover;
-    background-position: center;
-    background-repeat: repeat-y;
-    width: 100%;
-    height: 270vh;
-    background-image: 
-        /* top, transparent red */
-        linear-gradient(
-            rgba(4, 9, 30, .5), 
-            rgba(4, 9, 30, 0.5)
-        ),
-        /* your image */
-        url(img/background/tech3.jpg);
-}
-   
+        background-size: cover;
+        background-position: center;
+        background-repeat: repeat-y;
+        width: 100%;
+        height: 270vh;
+        background-image: 
+            /* top, transparent red */
+            linear-gradient(
+                rgba(4, 9, 30, .5), 
+                rgba(4, 9, 30, 0.5)
+            ),
+            /* your image */
+            url(img/background/tech3.jpg);
+    }
+
 
 
 
@@ -404,11 +463,11 @@ img {
         padding: 20px;
     }
 
-   
-    
-    
 
-    
+
+
+
+
 }
 
 
