@@ -16,6 +16,10 @@ body, html {
     border-radius: 50px;
 }
 
+.cardWidth {
+    width: 80%;
+}
+
 .reddit {
     color: #FF5700;
 }
