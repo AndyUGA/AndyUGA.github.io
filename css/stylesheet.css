@@ -138,14 +138,10 @@ body, html {
 }
 
 .icon3 {
-    height: 40px;
-    width: 40px;
+    height: 60px;
+    width: 60px;
 }
 
-.icon4 {
-    height: 20px;
-    width: 20px;
-}
 
 .navbar {
     margin-bottom: 0;
@@ -401,6 +397,21 @@ img {
 
 
     }
+    
+    .icon {
+    height: 40px;
+    width: 40px;
+}
+
+.icon2 {
+    height: 70px;
+    width: 70px;
+}
+
+.icon3 {
+    height: 45px;
+    width: 45px;
+}
     
     .logo {
     width: 40%;
