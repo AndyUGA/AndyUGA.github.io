@@ -301,40 +301,9 @@ img {
             rgba(4, 9, 30, 0.5)
         ),
         /* your image */
-        url(../img/background/tech3.jpg);
+        url(../img/background/tech6.jpg);
 }
 
-.testbg2 {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
-    background-image: 
-        /* top, transparent red */
-        linear-gradient(
-            rgba(4, 9, 30, .5), 
-            rgba(4, 9, 30, 0.5)
-        ),
-        /* your image */
-        url(img/background/tech2.jpg);
-}
-
-.testbg3 {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
-    background-image: 
-        /* top, transparent red */
-        linear-gradient(
-            rgba(4, 9, 30, .5), 
-            rgba(4, 9, 30, 0.5)
-        ), 
-        /* your image */
-        url(img/background/tech.jpg);
-}
 
 .testbg4 {
 
