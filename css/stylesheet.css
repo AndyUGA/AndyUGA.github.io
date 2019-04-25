@@ -301,7 +301,7 @@ img {
             rgba(4, 9, 30, 0.5)
         ),
         /* your image */
-        url(../img/background/tech3.jpg);
+        url(../img/background/tech9.jpg);
 }
 
 
@@ -330,7 +330,7 @@ img {
     letter-spacing: .15em; /* Adjust as needed */
     animation: 
         typing 2s steps(40, end),
-        blink-caret .75s step-end 6;
+        blink-caret .25s step-end 12;
     border-right: .15em solid transparent;
 }
 
@@ -361,7 +361,7 @@ img {
         letter-spacing: .15em; /* Adjust as needed */
         animation: 
             typing 2s steps(40, end),
-            blink-caret .75s step-end 4;
+            blink-caret .25s step-end 10;
         border-right: .15em solid transparent;
 
 
