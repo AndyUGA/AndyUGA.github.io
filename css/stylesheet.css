@@ -210,7 +210,7 @@ img {
 
 .text {
     text-align: center;
-    position: absolute;
+    position:relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -336,8 +336,8 @@ img {
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .15em; /* Adjust as needed */
     animation: 
-        typing 2s steps(40, end),
-        blink-caret .25s step-end 12;
+        typing 4s steps(80, end),
+        blink-caret .25s step-end 7;
     border-right: .15em solid transparent;
 }
 
@@ -363,17 +363,18 @@ img {
     .typewriter h1 {
         overflow: hidden; /* Ensures the content is not revealed until the animation */
         border-right: .15em solid red; /* The typwriter cursor */
-        white-space: pre-line; /* Keeps the content on a single line */
+
         margin: 0 auto; /* Gives that scrolling effect as the typing happens */
         letter-spacing: .15em; /* Adjust as needed */
         animation: 
             typing 2s steps(40, end),
-            blink-caret .25s step-end 10;
+            blink-caret .25s step-end 7.5;
         border-right: .15em solid transparent;
 
 
     }
- 
+    
+    
 
     
     .icon {
