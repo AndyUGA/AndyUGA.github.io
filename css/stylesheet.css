@@ -336,8 +336,8 @@ img {
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .15em; /* Adjust as needed */
     animation: 
-        typing 4s steps(80, end),
-        blink-caret .25s step-end 7;
+        typing 7s steps(100, end),
+        blink-caret .35s step-end 4;
     border-right: .15em solid transparent;
 }
 
@@ -357,10 +357,8 @@ img {
 
 
 
-
-
-@media screen and (max-width: 830px) {
-    .typewriter h1 {
+@media screen and (min-width: 300px) and (max-width: 749px) {
+     .typewriter h1 {
         overflow: hidden; /* Ensures the content is not revealed until the animation */
         border-right: .15em solid red; /* The typwriter cursor */
 
@@ -369,6 +367,20 @@ img {
         animation: 
             typing 2s steps(40, end),
             blink-caret .25s step-end 7.5;
+        border-right: .15em solid transparent;
+}
+
+
+@media screen and (min-width: 750px) and (max-width: 1000px) {
+    .typewriter h1 {
+        overflow: hidden; /* Ensures the content is not revealed until the animation */
+        border-right: .15em solid red; /* The typwriter cursor */
+
+        margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+        letter-spacing: .15em; /* Adjust as needed */
+        animation: 
+            typing 3.5s steps(40, end),
+            blink-caret .45s step-end 3;
         border-right: .15em solid transparent;
 
 
