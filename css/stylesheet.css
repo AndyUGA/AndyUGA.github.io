@@ -371,9 +371,15 @@ img {
 }
     
     .techIconFont {
-        font-size: 13px;
+        font-size: 18px;
     }
-
+    
+    .programmingIcon {
+        height: 100%;
+        width: 35%;
+    }
+    
+    
 
 @media screen and (min-width: 750px) and (max-width: 1000px) {
     .typewriter h1 {
