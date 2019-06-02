@@ -84,6 +84,7 @@ body, html {
 
 .wordpress {
     color: #494949;
+
 }
 
 
@@ -372,7 +373,10 @@ img {
     
     .techIconFont {
         font-size: 18px;
+
     }
+  
+ 
     
     .programmingIcon {
         height: 100%;
