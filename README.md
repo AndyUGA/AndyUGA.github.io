@@ -1,6 +1,17 @@
- <p align="center"> 
-    <img src="https://pngimage.net/wp-content/uploads/2018/06/logo-uga-png-3.png">
- </p>
+<p align = "middle"> Landing Page </p>
+
+![alt-text-1](https://github.com/AndyUGA/AndyUGA.github.io/blob/master/img/Freelance/Portfolio.jpg)
+
+<p align = "middle"> Personal Projects </p>
+
+![alt-text-1](https://github.com/AndyUGA/AndyUGA.github.io/blob/master/img/Freelance/Projects.png)
+
+<p align = "middle"> About Me </p>
+
+![alt-text-1](https://github.com/AndyUGA/AndyUGA.github.io/blob/master/img/Freelance/Bio.png)
+
+
+
  
 # My personal portfolio that describes who I am. 
 
