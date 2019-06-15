@@ -405,9 +405,7 @@ img {
 
     }
     
-    .hvr-underline-from-center {
-       
-    }
+
   
  
     
@@ -415,7 +413,13 @@ img {
         height: 100%;
         width: 35%;
     }
-    
+        /* Underline From Center */
+
+.hvr-underline-from-center:before {
+    background: #343A3F;
+ 
+}
+}
     
 
 @media screen and (min-width: 750px) and (max-width: 1000px) {
