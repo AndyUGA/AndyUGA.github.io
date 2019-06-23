@@ -9,6 +9,8 @@ body, html {
     position: relative;
 }
 
+
+
 /* Underline From Center */
 .hvr-underline-from-center {
   display: inline-block;
@@ -40,6 +42,12 @@ body, html {
   right: 0;
 }
 
+.iconBorder {
+    outline: 4px solid red;
+
+    outline-offset: 50%;
+}
+
 .testButton {
     background-color: #199045;
     color: white;
@@ -61,6 +69,7 @@ body, html {
 
 .uvsase {
     color: #009FB7;
+    
 }
 
 .node {
@@ -132,6 +141,10 @@ body, html {
     height: 70%;
     width: 100%;
 
+}
+
+.githubIcon {
+    width: 10%
 }
 
 .programmingIcon {
