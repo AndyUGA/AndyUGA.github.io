@@ -128,7 +128,6 @@ body, html {
 
 
 
-
 .logo {
     width: 20%;
     height: 10vh;
@@ -144,7 +143,7 @@ body, html {
 }
 
 .githubIcon {
-    width: 10%
+    width: 7%
 }
 
 .programmingIcon {
@@ -383,6 +382,9 @@ img {
 
     }
     
+    .githubIcon {
+        width: 10%;
+    }
 
   
  
@@ -419,7 +421,7 @@ img {
 }
     
     .logo {
-    width: 40%;
+    width: 20%;
     height: 10vh;
     display: block;
     margin-left: auto;
@@ -480,7 +482,6 @@ img {
         color: white;
         padding: 20px;
     }
-
 
 
 
