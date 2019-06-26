@@ -44,6 +44,8 @@ body, html {
 
 
 
+
+
 .testButton {
     background-color: #199045;
     color: white;
@@ -51,7 +53,9 @@ body, html {
     border-radius: 50px;
 }
 
-.cardWidth {
+
+
+.card {
     width: 80%;
 }
 
@@ -141,6 +145,8 @@ body, html {
 .githubIcon {
     width: 10%
 }
+
+
 
 .programmingIcon {
     height: 50%;
