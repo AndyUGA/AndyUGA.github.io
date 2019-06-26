@@ -42,11 +42,7 @@ body, html {
   right: 0;
 }
 
-.iconBorder {
-    outline: 4px solid red;
 
-    outline-offset: 50%;
-}
 
 .testButton {
     background-color: #199045;
