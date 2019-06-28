@@ -417,7 +417,7 @@ img {
 }
 }
     
-
+/* Table devices */
 @media screen and (min-width: 750px) and (max-width: 1000px) {
     
 
@@ -425,6 +425,10 @@ img {
     height: 40px;
     width: 40px;
 }
+    
+    .fas {
+        font-size: 10vh;
+    }
 
 .icon2 {
     height: 70px;
