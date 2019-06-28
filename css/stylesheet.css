@@ -44,16 +44,10 @@ body, html {
 
 
 
-
-
-.testButton {
-    background-color: #199045;
-    color: white;
-    padding: .5em 1.5em;
-    border-radius: 50px;
+.portfolioImg:hover {
+    background-color: blue;
+    background: red;
 }
-
-
 
 .card {
     width: 80%;
@@ -376,13 +370,22 @@ img {
 
 
 
-
+/* Most mobile devices */
 @media screen and (min-width: 300px) and (max-width: 749px) {
      
     .techIconFont {
         font-size: 18px;
 
     }
+    
+    .logo {
+        width: 35%;
+    height: 10vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+   
     
     .githubIcon {
         width: 20%;
