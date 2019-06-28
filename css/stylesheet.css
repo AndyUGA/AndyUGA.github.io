@@ -42,7 +42,11 @@ body, html {
   right: 0;
 }
 
-
+.card-title {
+    font-weight: bold;
+    font-size: 3vh;
+    text-decoration: underline;
+}
 
 .portfolioImg:hover {
     background-color: blue;
@@ -427,7 +431,7 @@ img {
 }
     
     .fas {
-        font-size: 10vh;
+        font-size: 8vh;
     }
 
 .icon2 {
