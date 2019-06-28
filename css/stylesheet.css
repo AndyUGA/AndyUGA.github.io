@@ -389,6 +389,10 @@ img {
 
     }
     
+    .card2 {
+        width: 90%;
+    }
+    
     .fas {
         font-size: 10vh;
     }
