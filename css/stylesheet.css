@@ -10,7 +10,13 @@ body, html {
 }
 
 
+.enlarge {
+    transition: all .2s ease-in-out;
+}
 
+.enlarge:hover {
+    transform: scale(1.1); 
+}
 /* Underline From Center */
 .hvr-underline-from-center {
   display: inline-block;
