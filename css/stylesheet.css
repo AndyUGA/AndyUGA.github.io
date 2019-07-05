@@ -9,6 +9,13 @@ body, html {
     position: relative;
 }
 
+.freelanceTitle {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 2vh;
+    padding-bottom: 1vh;
+}
+
 
 .enlarge {
     transition: all .2s ease-in-out;
