@@ -12,10 +12,6 @@
 
 
 
- 
-# My personal portfolio that gives you a better idea of who I am. 
-
-
 ------------------------------------------------------------------------------------------------------------------------------  
 
 ## Technologies utitilized in this project:
