@@ -16,6 +16,14 @@ body, html {
     padding-bottom: 1vh;
 }
 
+.grow { 
+    transition: all .3s ease-in-out; 
+}
+
+.grow:hover { 
+    transform: scale(1.05); 
+}
+
 
 .enlarge {
     transition: all .2s ease-in-out;
@@ -26,33 +34,33 @@ body, html {
 }
 /* Underline From Center */
 .hvr-underline-from-center {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  position: relative;
-  overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
 }
 .hvr-underline-from-center:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  left: 51%;
-  right: 51%;
-  bottom: 0;
-  background: red;
-  height: 4px;
-  -webkit-transition-property: left, right;
-  transition-property: left, right;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 51%;
+    right: 51%;
+    bottom: 0;
+    background: red;
+    height: 4px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
 }
 .hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
-  left: 0;
-  right: 0;
+    left: 0;
+    right: 0;
 }
 
 .card-title {
@@ -80,7 +88,7 @@ body, html {
 
 .uvsase {
     color: #009FB7;
-    
+
 }
 
 .node {
@@ -97,7 +105,7 @@ body, html {
 
 .ionic {
     color: #4F8FF7;
-  
+
 }
 
 
@@ -397,20 +405,27 @@ img {
 
 /* Most mobile devices */
 @media screen and (min-width: 300px) and (max-width: 749px) {
-     
+
+    .grow { 
+        transition: all .3s ease-in-out; 
+    }
+
+    .grow:hover { 
+        transform: scale(1.0); 
+    }
     .techIconFont {
         font-size: 18px;
         font-weight: bold;
     }
-    
+
     .card2 {
-        width: 90%;
+        width: 85%;
     }
-    
+
     .fas {
         font-size: 10vh;
     }
-    
+
     .logo {
         width: 35%;
         height: 10vh;
@@ -418,58 +433,58 @@ img {
         margin-left: auto;
         margin-right: auto;
     }
-   
-    
+
+
     .githubIcon {
         width: 20%;
     }
 
-  
- 
-    
+
+
+
     .programmingIcon {
         height: 100%;
         width: 35%;
     }
-        /* Underline From Center */
+    /* Underline From Center */
 
-.hvr-underline-from-center:before {
-    background: #343A3F;
- 
+    .hvr-underline-from-center:before {
+        background: #343A3F;
+
+    }
 }
-}
-    
+
 /* Table devices */
 @media screen and (min-width: 750px) and (max-width: 1000px) {
-    
+
 
     .icon {
-    height: 40px;
-    width: 40px;
-}
-    
+        height: 40px;
+        width: 40px;
+    }
+
     .fas {
         font-size: 8vh;
     }
 
-.icon2 {
-    height: 70px;
-    width: 70px;
-}
+    .icon2 {
+        height: 70px;
+        width: 70px;
+    }
 
-.icon3 {
-    height: 45px;
-    width: 45px;
-}
-    
+    .icon3 {
+        height: 45px;
+        width: 45px;
+    }
+
     .logo {
-    width: 20%;
-    height: 10vh;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
- 
+        width: 20%;
+        height: 10vh;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .languageIcon {
         height: 70%;
         width: 80%;
@@ -479,11 +494,11 @@ img {
     .techIconFont {
         font-size: 16px;
     }
-    
+
     .programmingIcon {
-    height: 50%;
-    width: 35%;
-}
+        height: 50%;
+        width: 35%;
+    }
 
 
 
@@ -508,7 +523,7 @@ img {
 
 
     /* The typewriter cursor effect */
-  
+
     .box{
         position: absolute;
         top: 50%;
@@ -529,6 +544,12 @@ img {
 
 
 
+}
+
+@media screen and (min-width: 1400px) {
+    .card2 {
+        width: 50vw;
+    }
 }
 
 
