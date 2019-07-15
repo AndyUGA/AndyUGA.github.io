@@ -1,4 +1,4 @@
-<p align = "middle"> Landing Page </p>
+<p align = "middle"> Home Page </p>
 
 ![alt-text-1](https://github.com/AndyUGA/AndyUGA.github.io/blob/master/img/Freelance/Portfolio.jpg)
 
