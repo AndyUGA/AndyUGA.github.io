@@ -1,3 +1,4 @@
+
 * {
     font-family: 'Helvetica-Light', 'Helvetica', sans-serif;
 }
@@ -98,6 +99,10 @@ body, html {
     color: #00D8FF;
 }
 
+.newspaper {
+    color:black;
+}
+
 .angular {
     color: #DD1915;
 }
@@ -157,7 +162,7 @@ body, html {
     margin-right: auto;
 }
 
-.fas {
+.fas, .far {
     font-size: 12vh;
 }
 
@@ -421,7 +426,7 @@ img {
         width: 85%;
     }
 
-    .fas {
+    .fas, .far {
         font-size: 10vh;
     }
 
@@ -462,7 +467,7 @@ img {
         width: 40px;
     }
 
-    .fas {
+    .fas, .far {
         font-size: 8vh;
     }
 
@@ -550,3 +555,5 @@ img {
         width: 50vw;
     }
 }
+
+
