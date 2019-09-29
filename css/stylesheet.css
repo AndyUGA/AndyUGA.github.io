@@ -9,6 +9,10 @@ body, html {
     position: relative;
 }
 
+.reduceHeight {
+    height: 50vh;
+}
+
 .freelanceTitle {
     font-weight: bold;
     text-decoration: underline;
