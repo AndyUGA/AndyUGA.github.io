@@ -1,6 +1,6 @@
 
 * {
-    font-family: 'Helvetica-Light', 'Helvetica', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 body, html {
@@ -294,9 +294,10 @@ img {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-family: "Helvetica", Times, serif;
+    font-family: "Roboto", Times, serif;
     font-size: 50px;
     font-weight: bold;
+    
 }
 
 .temp {
