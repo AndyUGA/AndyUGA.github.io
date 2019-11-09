@@ -17,7 +17,7 @@
 ## Technologies utitilized in my portfolio:
 - HTML5
 - CSS3
-- [Bootstrap](https://getbootstrap.com) 
+- [Bootstrap 4](https://getbootstrap.com) 
 
 ---------------------------------------------------------------------------------------------------------------------------
 ## Live Preview
