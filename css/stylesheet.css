@@ -172,7 +172,7 @@ body, html {
 
 .languageIcon {
     height: 70%;
-    width: 100%;
+    width: 90%;
 
 }
 
@@ -446,6 +446,12 @@ img {
 
     .githubIcon {
         width: 20%;
+    }
+    
+    .languageIcon {
+        height: 70%;
+        width: 70%;
+
     }
 
 
