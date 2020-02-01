@@ -1,4 +1,4 @@
-<p align = "middle"> Home Page </p>
+<p align = "middle"> Home </p>
 
 ![alt-text-1](https://github.com/AndyUGA/AndyUGA.github.io/blob/master/img/Freelance/Portfolio.jpg)
 
@@ -14,7 +14,7 @@
 
 ------------------------------------------------------------------------------------------------------------------------------  
 
-## Technologies utitilized in my portfolio:
+## Technologies utitilized:
 - HTML5
 - CSS3
 - [Bootstrap 4](https://getbootstrap.com) 
