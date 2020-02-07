@@ -265,6 +265,15 @@ img {
     width: 25%;
 }
 
+.homeImage3 {
+    width: 80%;
+    border-radius: 15%;
+}
+
+.indexTitle {
+    font-size: 4rem;
+}
+
 .tempText {
     color: white;
 }
