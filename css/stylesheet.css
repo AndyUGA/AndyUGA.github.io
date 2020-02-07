@@ -1,6 +1,6 @@
 
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif !important;
 }
 
 body, html {
@@ -195,6 +195,8 @@ body, html {
 
 
 
+
+
 .techIconFont {
     font-size: 25px;
     font-weight: bold;
@@ -228,6 +230,11 @@ body, html {
 }
 
 .icon3 {
+    width: 40px;
+    height: auto;
+}
+
+.icon3 {
     height: 60px;
     width: 60px;
 }
@@ -247,6 +254,15 @@ footer {
 img {
     width: 50%;
     height: auto;
+}
+
+.homeImage {
+    width: 70%;
+    border-radius: 20%;
+}
+
+.homeImage2 {
+    width: 25%;
 }
 
 .tempText {
