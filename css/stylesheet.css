@@ -440,6 +440,9 @@ img {
 /* Most mobile devices */
 @media screen and (min-width: 300px) and (max-width: 749px) {
 
+    .hideMobile {
+        display: none;
+    }
     .grow { 
         transition: all .3s ease-in-out; 
     }
