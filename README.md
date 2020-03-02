@@ -1,4 +1,4 @@
-<p align = "middle"> Home </p>
+<p align = "middle"> Homepage </p>
 
 ![alt-text-1](https://github.com/AndyUGA/AndyUGA.github.io/blob/master/img/Freelance/Portfolio.jpg)
 
