@@ -2370,7 +2370,7 @@
     right: 0;
     top: 0;
     bottom: 0;
-    border-color: #2098D1;
+    border-color: red;
     border-style: solid;
     border-width: 0;
     -webkit-transition-property: border-width;
