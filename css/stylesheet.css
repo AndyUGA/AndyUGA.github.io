@@ -106,7 +106,7 @@ body, html {
 }
 
 .card {
-    width: 80%;
+    width: 50%;
 }
 
 .reddit {
@@ -334,10 +334,6 @@ img {
     padding-top: 15px;
 }
 
-
-.portfolioCards {
-
-}
 
 
 .text {
@@ -619,7 +615,7 @@ img {
 
 @media screen and (min-width: 1400px) {
     .card2 {
-        width: 50vw;
+        width: 40vw;
     }
 }
 
