@@ -651,3 +651,10 @@ img {
         right: 0;
     }
 }
+
+
+@media screen and (max-width:362px) {
+    .marginBottomButton {
+        margin-bottom: 1rem;
+    }
+}
