@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/andyuga.github.io/static/css/main.073c9b0a.css",
+    "main.js": "/andyuga.github.io/static/js/main.9a877dcc.js",
+    "static/js/787.71e672d5.chunk.js": "/andyuga.github.io/static/js/787.71e672d5.chunk.js",
+    "static/media/logo.svg": "/andyuga.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/andyuga.github.io/index.html",
+    "main.073c9b0a.css.map": "/andyuga.github.io/static/css/main.073c9b0a.css.map",
+    "main.9a877dcc.js.map": "/andyuga.github.io/static/js/main.9a877dcc.js.map",
+    "787.71e672d5.chunk.js.map": "/andyuga.github.io/static/js/787.71e672d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.9a877dcc.js"
+  ]
+}
